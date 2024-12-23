@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta name="description" content="Feuerwehr Neuötting.">
+    
+
+    <meta property="og:title" content="! Felix">
+    <meta property="og:description" content="Feuerwehr Neuötting.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://firefighterfm.com/">
+    <meta property="og:image" content="https://s13.gifyu.com/images/SPc4G.png">
+  
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="! Felix">
+    <meta name="twitter:description" content="Feuerwehr Neuötting.">
+    <meta name="twitter:image" content="https://s13.gifyu.com/images/SPc4G.png">
+  
+
+    <meta name="theme-color" content="#8000ff">
+      
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.ico">
+  
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>! Felix</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/matrix.js"></script>
+    <script type="text/javascript" src="assets/js/title.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/typed.min.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <script>
+        // Funktion, um den benutzerdefinierten Cursor beim Rechtsklick anzuzeigen
+        const showTrollFaceCursorOnRightClick = () => {
+          // Wenn der Benutzer mit der rechten Maustaste klickt
+          $(document).on('contextmenu', (e) => {
+            e.preventDefault(); // Verhindert das Standard-Kontextmenü
+    
+            // Cursor auf 'trollface.jpg' setzen
+            document.body.style.cursor = 'url("./assets/others/trollface.jpg") 16 16, auto';
+          });
+    
+          // Wenn der Benutzer irgendwo anders klickt, zurück zum Standardcursor
+          $(document).on('click', () => {
+            document.body.style.cursor = 'default'; // Setzt den Standardcursor
+          });
+        };
+    
+        // Initialisierung der Funktionen
+        $(document).ready(() => {
+          // Aktiviert die Rechtsklick-Cursor-Funktion
+          showTrollFaceCursorOnRightClick();
+        });
+      </script>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>   
+
+    <div id="falling-numbers"></div>
+    <div class="video-overlay">
+        <video class="background-video" autoplay loop muted>
+            <source src="./assets/vid/back.mp4" type="video/mp4">
+            Dein Browser unterstützt kein HTML5-Video.
+        </video>
+    </div>
+
+    <audio id="audio" loop="">
+        <source src="./assets/vid/back.mp4" type="audio/mp4" />
+        <script>
+          const audio = document.getElementById('audio');
+
+          app.audioElement = audio;
+          app.audioElement.volume = 0.1;
+        </script>
+      </audio>
+
+    <script>
+        const video = document.getElementById('background-video');
+
+        app.videoElement = video;
+        app.videoElement.volume = 1;
+      </script>
+
+<style>
+  .quote1 {
+    font-size: 24px; /* Passende Größe */
+    font-weight: bold; /* Hervorhebung */
+    color: #00ff22; /* Glow-Farbe */
+    text-shadow: 0 0 5px rgba(0, 255, 21, 0.8), 0 0 10px rgba(21, 255, 0, 0.6);
+    animation: glow-pulse 3s infinite;
+}
+
+/* Animation für pulsierenden Glow */
+@keyframes glow-pulse {
+    0% {
+        text-shadow: 0 0 5px rgba(0, 255, 42, 0.8), 0 0 10px rgba(0, 255, 13, 0.6);
+    }
+    50% {
+        text-shadow: 0 0 15px rgb(0, 255, 55), 0 0 30px rgba(21, 255, 0, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 5px rgba(0, 255, 0, 0.8), 0 0 10px rgba(128, 0, 255, 0.6);
+    }
+}
+
+.quote1:hover {
+    text-shadow: 0 0 20px rgb(255, 81, 0), 0 0 40px rgba(255, 0, 0, 0.8);
+    transition: text-shadow 0.3s ease-in-out;
+}
+</style>
+
+    <div class="container">
+        <div class="glow-box">
+            <img src="./assets/images/pb.jpg" alt="Profilbild" class="profile-picture">
+            <h1 class="name">ℱ𝑒𝓁𝒾𝓍</h1>
+            <div class="socials">
+              <p class="quote1">𝓕𝓮𝓾𝓮𝓻𝔀𝓮𝓱𝓻 𝓝𝓮𝓾ö𝓽𝓽𝓲𝓷𝓰.</p>
+            </div>
+        </div>
+    </div>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8f64164b88f7d6d4","version":"2024.10.5","r":1,"token":"55d933fdb8f64562807f730cb4b89ec9","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--
+        __   ___    ___  __          __     __   __                            
+|\ | | /  ` |__      |  |__) \ /    |  \ | |  \ |  \ \ /                       
+| \| | \__, |___     |  |  \  |     |__/ | |__/ |__/  |  .                     
+                                                         '                     
+          ___  ___  __   __      __   __                              ___  ___ 
+|__|  /\   |  |__  |__) /__`    / _` /  \ |\ | |\ |  /\     |__|  /\   |  |__  
+|  | /~~\  |  |___ |  \ .__/    \__> \__/ | \| | \| /~~\    |  | /~~\  |  |___ 
+         
+
+                 *                  *
+                     __                *
+                  ,db'    *     *
+                 ,d8/       *        *    *
+                 888
+                 `db\       *     *
+                   `o`_                    **
+              *               *   *    _      *
+                    *                 / )
+                 *    (\__/) *       ( (  *
+               ,-.,-.,)    (.,-.,-.,-.) ).,-.,-.
+              | @|  ={      }= | @|  / / | @|o |
+             _j__j__j_)     `-------/ /__j__j__j_
+             ________(               /___________
+              |  | @| \              || o|O | @|
+              |o |  |,'\       ,   ,'"|  |  |  |  hjw
+             vV\|/vV|`-'\  ,---\   | \Vv\hjwVv\//v
+                        _) )    `. \ /
+                       (__/       ) )
+                                 (_/
+-->
